@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://savusoft.sharepoint.com/sites/TeamSite/SitePages/PratikTest.aspx",
+      "customActions": {
+        "ebbd23f8-94d5-4151-8a98-137e48bb3643": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "hideIt": {
+      "pageUrl": "https://savusoft.sharepoint.com/sites/TeamSite/SitePages/PratikTest.aspx",
+      "customActions": {
+        "ebbd23f8-94d5-4151-8a98-137e48bb3643": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

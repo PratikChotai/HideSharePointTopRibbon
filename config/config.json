@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hide-it-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/hideIt/HideItApplicationCustomizer.js",
+          "manifest": "./src/extensions/hideIt/HideItApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HideItApplicationCustomizerStrings": "lib/extensions/hideIt/loc/{locale}.js"
+  }
+}
